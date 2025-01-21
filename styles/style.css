@@ -105,6 +105,140 @@
 }
 
 /* Curriculum */
+.curriculum{
+  background-image: url(/assets/backround.png);
+  background-size: cover;
+}
+
+.curri{
+  max-width: 1160px;
+  margin: 60px auto;
+}
+.curri-header{
+  font-size: 2.85rem;
+  font-weight:bold ;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+}
+.box{
+  max-width: 368px;
+  padding: 52px 41px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 19px;
+  box-shadow: 0 0 28px .94px rgba(0, 0, 0, 0.05);
+}
+.box-1>h4{
+  margin-top: 22px;
+}
+.box-header{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-bottom: 32px;
+}
+.box-text{
+  color: #808080;
+  font-weight: 600px;
+  margin-bottom: 32px;
+}
+.read{
+  font-weight: bold;
+}
+.read-1{
+  color: #64C8FF;
+}
+.read-2{
+  color: #F0AA00;
+}
+.read-3{
+  color: #8700FF;
+}
+.box-1{
+  background-image: linear-gradient(#DEF5FF 0%,white 40%);
+}
+.box-2{
+  background-image: linear-gradient(#FFF4DC 0%, white 40%);
+}
+.box-3{
+  background-image: linear-gradient(#F2E8FF 0%, white 40%);
+}
+.icon{
+  text-align: center;
+  margin-top: 40px;
+}
+.fa-arrow-left, .fa-arrow-right{
+  background-color: orange;
+  color: white;
+  font-size: 2.5rem;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+/* Stories */
+.mstories {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 1), rgba(255, 165, 0, 0.3)), 
+    url('/assets/backround.png');
+  background-size: cover;
+  background-position: center;
+}
+.stories{
+  max-width: 1160px;
+  margin: 60px auto;
+}
+.stories-header{
+  font-size: 2.9rem;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.astories{
+  display: flex;
+  justify-content: space-between;
+}
+.bstory{
+  max-width: 540px;
+  margin-right: 19px;
+  background-color: white;
+  border-radius: 16px;
+  
+}
+.bstory-content{
+  padding: 0 39px;
+}
+
+.bstory>img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 50px;
+}
+.bstory-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.bstory-text{
+  font-weight: 600px;
+  color: #666666;
+}
+.sstories{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+.sstory>img{
+  width: 100%;
+}
+
 
 
 
@@ -139,5 +273,14 @@
     padding: 6px 24px;
     border-radius: 8px;
   }
-
+  .boxes{
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon{
+    display: none;
+  }
+  .curri{
+    margin-top: 30px;
+  }
 }
