@@ -121,7 +121,7 @@ body{
 
 /* Curriculum */
 .curriculum{
-  background-image: url('/assets/backround.png');
+  background-image: url('../assets/backround.png');
   background-size: cover;
 }
 
@@ -202,7 +202,7 @@ body{
 .mstories {
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 165, 0, 0.3)), 
-    url('/assets/backround.png');
+    url('../assets/backround.png');
   background-size: cover;
   background-position: center;
 }
