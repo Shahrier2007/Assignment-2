@@ -293,7 +293,7 @@ body{
   color: white;
   font-weight: bold;
   font-size: 2.6rem;
-  line-height: .9;
+  line-height: .95;
 }
 .left-text{
   color: white;
@@ -329,6 +329,15 @@ body{
   color: white;
   font-size: 1.7rem;
   margin-bottom: 30px;
+}
+marquee{
+  background-color: #f5eaac;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.maq{
+  background-color: #f5eaac;
+  text-align: center;
 }
 
 
@@ -373,8 +382,9 @@ body{
     margin-bottom: 0;
   }
   .curri-header{
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 30px;
+    font-size: 1.8rem;
   }
   .bstory{
     display: none;
@@ -435,5 +445,10 @@ body{
   }
   .footer-right{
     margin-bottom: 30px;
+  }
+  marquee{
+    height: 35px;
+    font-size: 1.6rem;
+    width: 95%;
   }
 }
