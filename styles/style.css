@@ -121,7 +121,7 @@ body{
 
 /* Curriculum */
 .curriculum{
-  background-image: url(/assets/backround.png);
+  background-image: url('/assets/backround.png');
   background-size: cover;
 }
 
